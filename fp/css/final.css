@@ -1,0 +1,215 @@
+/* Final Website  Global styles*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+#mc_embed_signup{background:#fff; clear:left; font:14px 'Josefin Sans', sans-serif; }
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+main {
+    max-width: 1200px;
+    margin: 0, auto;
+    position: relative;
+}
+header {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 16px;
+}
+h1 a {
+    margin: 0 0 1em 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+h2 {
+    margin: -1em 0 .5em 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+p {
+    margin: 30px 8px 0 8px;
+}
+a:hover {
+    color: darkblue;
+}
+.bookmain {
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+    width: 50%;
+}
+.longbio p {
+    margin: 30px 30px 0 0;
+    float: right;
+    width: 50%;
+}
+.longbio img {
+    float: left;
+    margin: 30px 0 0 50px;
+    width: 40%;
+}
+.contactform {
+    margin-top: 30px;
+}
+
+/* Section left */
+
+section.left  {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+section.left .shortbio {
+    margin: 30px 15px;
+    padding: 0px;
+}
+section.left .shortbio img {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+section.left .twitter {
+    margin: 0 15px 0 15px;
+}
+
+/* Section right */
+
+section.right {
+    width: 48%;
+    float: right;
+    text-align: left;
+}
+section.right .upcomingbook {
+    margin: 30px 20px;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+section.right .upcomingbook h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+section.right .h3 {
+    margin-top: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+section.right .connect {
+    padding: 30px;
+    text-align: center;
+    margin: 50px;
+}
+footer {
+    padding:1em;
+    text-align:center;
+    clear:both;
+}
+/* Style all font awesome icons */
+
+.fa {
+    position: relative;
+    padding: 1em;
+    margin-inline: .5em;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2em;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+  } 
+  /* Instagram */
+  .fa-instagram {
+    background: #6e7072;
+    color: white;
+  }
+  /* Linkedin */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+/* MOBILE Styles */
+@media all and (max-width:600px) {
+
+    main {
+        width:100%;
+    }
+    h1 {
+        font-size: 1.5em;
+        margin: 0 0 1em 0;
+    }
+
+    section.left {
+        float:none;
+        width:100%;
+        text-align: left;
+    }
+    section.left .shortbio {
+        margin: 8px 20px;
+        padding: 5px;
+    }
+    section.left .shortbio img {
+        width: 100%;
+    }
+    section.right {
+        float:none;
+        width:100%;
+    }
+    section.right .upcomingbook {
+        border: none;
+        margin: 8px 20px;
+        padding: 5px;
+    }
+    section.right #mc_embed_signup {
+        margin: 8px 20px;
+    }
+    section.right .connect {
+        padding: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .bookmain {
+        float: none;
+        margin: 30px;
+        width: 90%;
+    }
+    .longbio img {
+        width: 100%;
+        float: none;
+        margin: 20px 0 20px 0;
+    }
+    .longbio p {
+        float:none;
+        width: 90%;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .wrapper {
+        margin-left: 20px;
+    }
+}
